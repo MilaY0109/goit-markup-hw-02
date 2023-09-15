@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -26,18 +28,18 @@ a {
 /* -----HEADER----- */
 
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.header-logo-web {
-  color: #4d5ae5;
+.header-logo-studio {
+  color: #2e2f42;
 }
 
 .header-list-link {
@@ -50,6 +52,10 @@ a {
 .header-list-link:hover,
 .header-list-link:focus {
   color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-link {
@@ -76,18 +82,22 @@ a {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .hero-order-btn {
   color: #ffffff;
   text-align: center;
-  font-size: 56px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
+}
+
+.hero-order-btn {
+  cursor: pointer;
 }
 
 .hero-order-btn:hover,
@@ -116,7 +126,7 @@ a {
 /* -----TEAM----- */
 
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -134,6 +144,7 @@ a {
 
 .team-item-title {
   color: #2e2f42;
+  background-color: #ffffff;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -143,6 +154,7 @@ a {
 
 .team-item-text {
   color: #434455;
+  background-color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -188,17 +200,17 @@ a {
 }
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo-web {
-  color: #4d5ae5;
+.footer-logo-studio {
+  color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
